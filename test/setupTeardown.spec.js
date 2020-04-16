@@ -12,7 +12,7 @@ Sua missão aqui é:
   ela deve funcionar entre cada teste.
   Opcional:
   - Para ficar mais visível, imprima na tela após cada teste o grupo de aventureiros restante.
-  - No fim dos testes, imprima uma mensagem de para o aventureiro que sobreviveu.
+  - No fim dos testes, imprima uma mensagem com o nome do aventureiro que sobreviveu.
 
 PS: Os codinomes dos aventureiros são reais! Tentem descobrir quem é quem!
 
