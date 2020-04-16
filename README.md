@@ -52,13 +52,13 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 # Entregáveis
 
-Para entregar o seu projeto você deverá criar um Pull Request neste repositório. Este Pull Request deverá conter as suas modificações feitas **APENAS** sobre os arquivos da pasta `tests`.
+Para entregar o seu projeto você deverá criar um Pull Request neste repositório. Este Pull Request deverá conter as suas modificações feitas **APENAS** sobre os arquivos da pasta `test`.
 
 ## Requisitos do projeto
 
 A seguir, estão listados todos os requisitos do projeto. Leia-os atentamente e siga à risca o que for pedido.
 
-Nesse projeto vocês vão 
+Nesse projeto vocês vão:
 
 - Revisar seu conhecimento acerca de testes utilizando o Jest;
 - Aplicar testes em funções assíncronas;
@@ -67,19 +67,19 @@ Nesse projeto vocês vão
 
 Seu projeto só será avaliado se estiver passando pelos _checks_ do **CodeClimate** e do **TravisCI**.
 
-**ATENÇÃO** Não modifiquem os arquivos da pasta `src`, o objetivo do projeto é que vocês trabalhem apenas com a pasta `tests`.
+**ATENÇÃO** Não modifiquem os arquivos da pasta `src`, o objetivo do projeto é que vocês trabalhem apenas com a pasta `test`.
 
 ### 1. Jest Assíncrono
 
-Complete os testes do arquivo `tests/asyncJest.spec.js` para que funcionem com código assíncrono.
+Complete os testes do arquivo `test/asyncJest.spec.js` para que funcionem com código assíncrono.
 
 ### 2. Mock Functions
 
-Crie mock functions no arquivo `tests/mockFunctions.spec.js` para que os testes mockados 'sobrescrevam' o código definido na pasta `src`. A idéia é que as funções criadas a partir do Jest tenham prioridade na sua execução.
+Crie mock functions no arquivo `test/mockFunctions.spec.js` para que os testes mockados 'sobrescrevam' o código definido na pasta `src`. A idéia é que as funções criadas a partir do Jest tenham prioridade na sua execução.
 
 ### 3. Mock APIs
 
-Crie um API mock no arquivo `tests/mockApi.spec.js` para que os testes do Jest utilizem retornos de API fixos e independentes de requisições.
+Crie um API mock no arquivo `test/mockApi.spec.js` para que os testes do Jest utilizem retornos de API fixos e independentes de requisições.
 
 Exemplo de resposta da API randomuser.me:
 
@@ -127,7 +127,7 @@ Exemplo de resposta da API randomuser.me:
 
 ### 4. Setup e Teardown
 
-Intercale funções entre os testes definidos no arquivo `tests/setupTeardown.js`.
+Intercale funções entre os testes definidos no arquivo `test/setupTeardown.js`.
 
 ---
 
