@@ -45,10 +45,10 @@ describe('verifica as funções e os mocks', () => {
   });
   test('testa função multiply', () => {
     expect(multiply(1, 2)).toEqual(2);
-    expect(multiply(1, 2)).toEqual(2);
-    expect(multiply(1, 2)).toEqual(2);
-    expect(multiply(1, 2)).toEqual(2);
-    expect(multiply(1, 2)).toEqual(2);
+    expect(multiply(0, 5)).toEqual(0);
+    expect(multiply(-4, 9)).toEqual(-36);
+    expect(multiply(-12, -7)).toEqual(84);
+    expect(multiply(19, 23)).toEqual(437);
   });
   test('testa função divide', () => {
     expect(divide(169, 13)).toEqual(13);
