@@ -8,7 +8,36 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ---
 
-## Instruções para entregar seu projeto:
+## HABILIDADES
+
+Nesse projeto, você será capaz de:
+
+
+
+---
+
+## SUMÁRIO
+
+Adicionar sumario
+
+---
+
+## O QUE DEVERÁ SER DESENVOLVIDO
+
+Resumo do que será desenvolvido
+
+---
+
+## DATA DE ENTREGA
+
+  - Projeto individual;
+
+  - Serão dois dias de projeto;
+
+  - O projeto tem até a seguinte data: `DD/MM/YYYY - 14:00h` para ter entregue a avaliação final.
+---
+
+## COMO DESENVOLVER
 
 ### ANTES DE COMEÇAR A DESENVOLVER:
 
@@ -52,7 +81,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ---
 
-# Entregáveis
+## REQUISITOS DO PROJETO
 
 Para entregar o seu projeto você deverá criar um Pull Request neste repositório. Este Pull Request deverá conter as suas modificações feitas **APENAS** sobre os arquivos da pasta `test`.
 
@@ -70,6 +99,19 @@ Nesse projeto vocês vão:
 Seu projeto só será avaliado se estiver passando pelos _checks_ do **CodeClimate**.
 
 **ATENÇÃO** Não modifiquem os arquivos da pasta `src`, o objetivo do projeto é que vocês trabalhem apenas com a pasta `test`.
+
+### Code Climate
+
+Seu projeto só será avaliado se estiver passando pelos _checks_ do **CodeClimate**.
+
+### Execução de testes de requisito
+
+Parágrafo sobre como o projeto é testado
+
+---
+
+### LISTA DE REQUISITOS
+---
 
 ### 1. Jest Assíncrono
 
@@ -133,6 +175,8 @@ Intercale funções entre os testes definidos no arquivo `test/setupTeardown.spe
 
 ---
 
+## Instruções para entregar seu projeto:
+
 ### DURANTE O DESENVOLVIMENTO
 
 * ⚠ **PULL REQUESTS COM ISSUES NO CODE CLIMATE NÃO SERÃO AVALIADAS, ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠
@@ -173,3 +217,15 @@ Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um vid
 À medida que você e as outras pessoas que estudam na Trybe forem entregando os projetos, vocês receberão um alerta via Slack para também fazer a revisão dos Pull Requests dos seus colegas. Fiquem atentos às mensagens do "Pull Reminders" no Slack!
 
 Use o material que você já viu sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os projetos que chegaram para você.
+
+---
+
+# AVISOS FINAIS
+
+Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
+
+Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
+
+O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
+
+---
