@@ -21,7 +21,37 @@ Nesse projeto, você será capaz de:
 
 ## SUMÁRIO
 
-Adicionar sumario
+[O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
+
+[Como desenvolver](#como-desenvolver)
+
+[Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
+
+[Requisitos do projeto](#requisitos-do-projeto)
+
+[Code Climate](#code-climate)
+
+[Execução de testes de requisito](#execução-de-testes-de-requisito)
+
+[Lista de requisitos](#lista-de-requisitos)
+
+[1 - Crie testes para uma função assíncrona](#1-crie-testes-para-uma-função-assíncrona)
+
+[2 - Mock Functions](#2-Mock-Functions)
+
+[3 - Mock APIs](#3-Mock-APIs)
+
+[4 - Setup e Teardown](#4-Setup-e-Teardown)
+
+[Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
+
+[Durante o desenvolvimento](#durante-o-desenvolvimento)
+
+[Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
+
+[Revisando um Pull Request](#revisando-um-pull-request)
+
+[Avisos finais](#avisos-finais)
 
 ---
 
@@ -107,7 +137,7 @@ Parágrafo sobre como o projeto é testado
 ### LISTA DE REQUISITOS
 ---
 
-### 1. Crie testes para uma uma função assíncrona
+### 1. Crie testes para uma função assíncrona
 
 Complete os testes do arquivo `test/asyncJest.spec.js` para que funcionem com código assíncrono.
 
