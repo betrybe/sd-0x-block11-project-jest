@@ -107,7 +107,7 @@ Parágrafo sobre como o projeto é testado
 ### LISTA DE REQUISITOS
 ---
 
-### 1. Jest Assíncrono
+### 1. Crie testes para uma uma função assíncrona
 
 Complete os testes do arquivo `test/asyncJest.spec.js` para que funcionem com código assíncrono.
 
