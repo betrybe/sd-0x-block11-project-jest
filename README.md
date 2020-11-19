@@ -27,7 +27,7 @@ Adicionar sumario
 
 ## O QUE DEVERÁ SER DESENVOLVIDO
 
-Resumo do que será desenvolvido
+Neste projeto, você irá implementar testes utilizando o **Jest** para verificar se uma série de funções estão funcionando corretamente. Você colocará em prática todo o conteúdo que aprendeu sobre Jest assíncrono e Mocks aplicados a testes em Javascript.
 
 ---
 
@@ -91,15 +91,6 @@ Para entregar o seu projeto você deverá criar um Pull Request neste repositór
 ## Requisitos do projeto
 
 A seguir, estão listados todos os requisitos do projeto. Leia-os atentamente e siga à risca o que for pedido.
-
-Nesse projeto vocês vão:
-
-- Revisar seu conhecimento acerca de testes utilizando o Jest;
-- Aplicar testes em funções assíncronas;
-- 'Mockar' funções;
-- 'Mockar' APIs.
-
-Seu projeto só será avaliado se estiver passando pelos _checks_ do **CodeClimate**.
 
 **ATENÇÃO** Não modifiquem os arquivos da pasta `src`, o objetivo do projeto é que vocês trabalhem apenas com a pasta `test`.
 
