@@ -12,7 +12,10 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 Nesse projeto, você será capaz de:
 
-
+- Escrever testes para funções assíncronas;
+- Aplicar os seus conhecimentos acerca de testes utilizando o Jest;
+- "Mockar" funções;
+- "Mockar" APIs;
 
 ---
 
