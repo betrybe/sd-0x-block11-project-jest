@@ -141,11 +141,11 @@ Parágrafo sobre como o projeto é testado
 
 Complete os testes do arquivo `test/asyncJest.spec.js` para que funcionem com código assíncrono.
 
-### 2. Mock Functions
+### 2. Crie um "Mock" no arquivo test/mockFunctions.spec.js
 
 Crie mock functions no arquivo `test/mockFunctions.spec.js` para que os testes mockados 'sobrescrevam' o código definido na pasta `src`. A idéia é que as funções criadas a partir do Jest tenham prioridade na sua execução.
 
-### 3. Mock APIs
+### 3. Crie um Mock para o retorno da API
 
 Crie um API mock no arquivo `test/mockApi.spec.js` para que os testes do Jest utilizem retornos de API fixos e independentes de requisições.
 
@@ -193,7 +193,7 @@ Exemplo de resposta da API randomuser.me:
 
 ```
 
-### 4. Setup e Teardown
+### 4.  Crie funções no arquivo test/setupTeardown.spec.js
 
 Intercale funções entre os testes definidos no arquivo `test/setupTeardown.spec.js`.
 
