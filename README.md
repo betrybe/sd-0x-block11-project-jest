@@ -37,11 +37,11 @@ Nesse projeto, você será capaz de:
 
 [1 - Crie testes para uma função assíncrona](#1-crie-testes-para-uma-função-assíncrona)
 
-[2 - Mock Functions](#2-Mock-Functions)
+[2 - Crie um "Mock" no arquivo test/mockFunctions.spec.js](#2-Crie-um-"Mock"-no-arquivo-test/mockFunctions.spec.js)
 
-[3 - Mock APIs](#3-Mock-APIs)
+[3 - Crie um Mock para o retorno da API](#3-Crie-um-Mock-para-o-retorno-da-API)
 
-[4 - Setup e Teardown](#4-Setup-e-Teardown)
+[4 - Crie funções no arquivo test/setupTeardown.spec.js](#4-Crie-funções-no-arquivo-test/setupTeardown.spec.js)
 
 [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
 
@@ -193,7 +193,7 @@ Exemplo de resposta da API randomuser.me:
 
 ```
 
-### 4.  Crie funções no arquivo test/setupTeardown.spec.js
+### 4. Crie funções no arquivo test/setupTeardown.spec.js
 
 Intercale funções entre os testes definidos no arquivo `test/setupTeardown.spec.js`.
 
