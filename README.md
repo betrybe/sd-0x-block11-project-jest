@@ -12,23 +12,29 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ## SUMÁRIO
 
-[Habilidades](#habilidades)
-[O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-[Como desenvolver](#como-desenvolver)
-[Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-[Requisitos do projeto](#requisitos-do-projeto)
-[Code Climate](#code-climate)
-[Execução de testes de requisito](#execução-de-testes-de-requisito)
-[Lista de requisitos](#lista-de-requisitos)
-[1 - Crie testes para uma função assíncrona](#1-crie-testes-para-uma-função-assíncrona)
-[2 - Crie um "Mock" no arquivo test/mockFunctions.spec.js](#2-Crie-um-"Mock"-no-arquivo-test/mockFunctions.spec.js)
-[3 - Crie um Mock para o retorno da API](#3-Crie-um-Mock-para-o-retorno-da-API)
-[4 - Crie funções no arquivo test/setupTeardown.spec.js](#4-Crie-funções-no-arquivo-test/setupTeardown.spec.js)
-[Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-[Durante o desenvolvimento](#durante-o-desenvolvimento)
-[Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
-[Revisando um Pull Request](#revisando-um-pull-request)
-[Avisos finais](#avisos-finais)
+- [Habilidades](#habilidades)
+
+- [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
+
+- [Como desenvolver](#como-desenvolver)
+  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
+
+- [Requisitos do projeto](#requisitos-do-projeto)
+  - [Code Climate](#code-climate)
+  - [Execução de testes de requisito](#execução-de-testes-de-requisito)
+
+- [Lista de requisitos](#lista-de-requisitos)
+  - [1 - Crie testes para uma função assíncrona](#1-crie-testes-para-uma-função-assíncrona)
+  - [2 - Crie um "Mock" no arquivo test/mockFunctions.spec.js](#2-Crie-um-"Mock"-no-arquivo-test/mockFunctions.spec.js)
+  - [3 - Crie um Mock para o retorno da API](#3-Crie-um-Mock-para-o-retorno-da-API)
+  - [4 - Crie funções no arquivo test/setupTeardown.spec.js](#4-Crie-funções-no-arquivo-test/setupTeardown.spec.js)
+
+- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
+  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
+  - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
+  - [Revisando um Pull Request](#revisando-um-pull-request)
+
+- [Avisos finais](#avisos-finais)
 
 ---
 
@@ -118,7 +124,7 @@ Seu projeto só será avaliado se estiver passando pelos _checks_ do **CodeClima
 
 ### Execução de testes de requisito
 
-Parágrafo sobre como o projeto é testado
+Nesse projeto, você irá implementar os testes para funções que já existem. Para testar se os requisitos estão passando, você pode executar os testes na sua máquina com o comando `npm test nome-arquivo.test`. É muito importante que você **não modifique nenhum arquivo da pasta src**. Alterar outros arquivos pode fazer com que o seu requisito não passe no avaliador automático.
 
 ---
 
