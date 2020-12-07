@@ -1,4 +1,4 @@
-### Termos de acordos
+## Termos de acordos
 
 Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
 
@@ -10,29 +10,32 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ---
 
-## SUMÁRIO
-
+# Sumário
+- [Boas vindas ao repositório do projeto de Jest Assíncrono e Mocking!](#boas-vindas-ao-repositório-do-projeto-de-jest-assíncrono-e-mocking)
+- [Sumário](#sumário)
 - [Habilidades](#habilidades)
-- [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-- [Como desenvolver](#como-desenvolver)
+- [Entregáveis](#entregáveis)
+  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
+  - [Desenvolvimento](#desenvolvimento)
+	- [Data de entrega](#data-de-entrega)
+- [Instruções para entregar seu projeto:](#instruções-para-entregar-seu-projeto)
   - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-- [Requisitos do projeto](#requisitos-do-projeto)
-  - [Code Climate](#code-climate)
-  - [Execução de testes de requisito](#execução-de-testes-de-requisito)
-- [Lista de requisitos](#lista-de-requisitos)
-  - [1 - Crie testes para uma função assíncrona](#1-crie-testes-para-uma-função-assíncrona)
-  - [2 - Crie um "Mock" no arquivo test/mockFunctions.spec.js](#2-Crie-um-"Mock"-no-arquivo-test/mockFunctions.spec.js)
-  - [3 - Crie um Mock para o retorno da API](#3-Crie-um-Mock-para-o-retorno-da-API)
-  - [4 - Crie funções no arquivo test/setupTeardown.spec.js](#4-Crie-funções-no-arquivo-test/setupTeardown.spec.js)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
   - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
-  - [Revisando um Pull Request](#revisando-um-pull-request)
+    - [Revisando um pull request](#revisando-um-pull-request)
+- [Como desenvolver](#como-desenvolver)
+  - [Code Climate](#code-climate)
+- [Requisitos do projeto](#requisitos-do-projeto)
+  - [Lista de requisitos](#lista-de-requisitos)
+    - [1 - Crie testes para uma função assíncrona](#1-crie-testes-para-uma-função-assíncrona)
+    - [2 - Crie um "Mock" no arquivo test/mockFunctions.spec.js](#2-Crie-um-"Mock"-no-arquivo-test/mockFunctions.spec.js)
+    - [3 - Crie um Mock para o retorno da API](#3-Crie-um-Mock-para-o-retorno-da-API)
+    - [4 - Crie funções no arquivo test/setupTeardown.spec.js](#4-Crie-funções-no-arquivo-test/setupTeardown.spec.js)
 - [Avisos finais](#avisos-finais)
 
 ---
 
-## HABILIDADES
+# Habilidades
 
 Nesse projeto, você será capaz de:
 
@@ -43,24 +46,34 @@ Nesse projeto, você será capaz de:
 
 ---
 
-## O QUE DEVERÁ SER DESENVOLVIDO
+# Entregáveis
+
+## O que deverá ser desenvolvido
 
 Neste projeto, você irá implementar testes utilizando o **Jest** para verificar se uma série de funções estão funcionando corretamente. Você colocará em prática todo o conteúdo que aprendeu sobre Jest assíncrono e Mocks aplicados a testes em Javascript.
 
 ---
 
-## DATA DE ENTREGA
+## Desenvolvimento
 
-  - Projeto individual;
+Este repositório contém a estrutura de pastas e arquivos que contém funções que deverão ser testadas por você. Após clonar o projeto e criar sua branch de trabalho, você poderá começar o desenvolvimentos dos testes. Lembre-se de **não modificar** os arquivos da pasta `src`, o objetivo do projeto é que você trabalhe apenas com a pasta `test`.
 
-  - Serão dois dias de projeto;
+Para testar se os requisitos estão passando, você pode executar os testes na sua máquina com o comando `npm test nome-arquivo.test`. É muito importante que você **não modifique nenhum arquivo da pasta src**. Alterá-los pode fazer com que o seu requisito não passe no avaliador automático.
 
-  - O projeto tem até a seguinte data: `DD/MM/YYYY - 14:00h` para ter entregue a avaliação final.
+
+## Data de entrega
+
+  - Projeto individual.
+
+  - Serão dois dias de projeto.
+
+  - Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
+
 ---
 
-## COMO DESENVOLVER
+# Instruções para entregar seu projeto:
 
-### ANTES DE COMEÇAR A DESENVOLVER:
+## Antes de começar a desenvolver
 
 1. Clone o repositório
   * `git clone https://github.com/tryber/sd-0x-project-jest.git`.
@@ -75,55 +88,61 @@ Neste projeto, você irá implementar testes utilizando o **Jest** para verifica
   * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
     * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
     * Exemplo: `git checkout -b joaozinho-project-jest`
+  * Agora, crie uma branch onde você vai guardar os commits do seu projeto
 
-4. Quando fizer mudanças, adicione-as ao _stage_ do Git e faça um `commit`
-  * Verifique que as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (devem aparecer listados os novos arquivos em vermelho)
-  * Adicione o novo arquivo ao _stage_ do Git
-      * Exemplo:
-        * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        * `git status` (devem aparecer listados os arquivos em verde)
-  * Faça o `commit` inicial
-      * Exemplo:
-        * `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
-        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
+--- 
 
-5. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin joaozinho-project-jest`
+## Durante o desenvolvimento
 
-6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-jest/pulls)
-  * Clique no botão verde _"New pull request"_
-  * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  * Clique no botão verde _"Create pull request"_
-  * Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde _"Create pull request"_
-  * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-jest/pulls) e confira que o seu _Pull Request_ está criado
+* Faça `commits` das alterações que você fizer no código regularmente
+
+* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
+
+* Os comandos que você utilizará com mais frequência são:
+  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
+  2. `git add` _(para adicionar arquivos ao stage do Git)_
+  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
+  5. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
+  4. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
 
 ---
 
-## REQUISITOS DO PROJETO
+## Depois de terminar o desenvolvimento (opcional)
 
-Para entregar o seu projeto você deverá criar um Pull Request neste repositório. Este Pull Request deverá conter as suas modificações feitas **APENAS** sobre os arquivos da pasta `test`.
+Para **"entregar"** seu projeto, siga os passos a seguir:
 
-## Requisitos do projeto
-
-A seguir, estão listados todos os requisitos do projeto. Leia-os atentamente e siga à risca o que for pedido.
-
-**ATENÇÃO** Não modifiquem os arquivos da pasta `src`, o objetivo do projeto é que vocês trabalhem apenas com a pasta `test`.
-
-### Code Climate
-
-Seu projeto só será avaliado se estiver passando pelos _checks_ do **CodeClimate**.
-
-### Execução de testes de requisito
-
-Nesse projeto, você irá implementar os testes para funções que já existem. Para testar se os requisitos estão passando, você pode executar os testes na sua máquina com o comando `npm test nome-arquivo.test`. É muito importante que você **não modifique nenhum arquivo da pasta src**. Alterar outros arquivos pode fazer com que o seu requisito não passe no avaliador automático.
+* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
+  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
+  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
+  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-0x`
 
 ---
 
-### LISTA DE REQUISITOS
+### Revisando um pull request
+
+Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
+
+#VQV 🚀
+
 ---
+
+# Como desenvolver
+
+## Code Climate
+
+Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento nós utilizamos neste projeto o `Code Climate`. Para rodar o Code Climate localmente no seu projeto, execute o comando abaixo:
+
+```bash
+codeclimate analyze
+```
+
+* ⚠ **PULL REQUESTS COM ISSUES NO CODE CLIMATE NÃO SERÃO AVALIADAS, ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠
+
+---
+
+# Requisitos do projeto
+
+## Lista de requisitos
 
 ### 1. Crie testes para uma função assíncrona
 
@@ -187,52 +206,7 @@ Intercale funções entre os testes definidos no arquivo `test/setupTeardown.spe
 
 ---
 
-## Instruções para entregar seu projeto:
-
-### DURANTE O DESENVOLVIMENTO
-
-* ⚠ **PULL REQUESTS COM ISSUES NO CODE CLIMATE NÃO SERÃO AVALIADAS, ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠
-
-
-* Faça `commits` das alterações que você fizer no código regularmente
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  5. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-  4. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
----
-
-### DEPOIS DE TERMINAR O DESENVOLVIMENTO (OPCIONAL)
-
-Para **"entregar"** seu projeto, siga os passos a seguir:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-0x`
-
-Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-⚠ Lembre-se que garantir que todas as _issues_ comentadas pelo CodeClimate estão resolvidas! ⚠
-
----
-
-### REVISANDO UM PULL REQUEST
-
-⚠⚠⚠
-
-À medida que você e as outras pessoas que estudam na Trybe forem entregando os projetos, vocês receberão um alerta via Slack para também fazer a revisão dos Pull Requests dos seus colegas. Fiquem atentos às mensagens do "Pull Reminders" no Slack!
-
-Use o material que você já viu sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os projetos que chegaram para você.
-
----
-
-# AVISOS FINAIS
+# Avisos Finais
 
 Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
 
