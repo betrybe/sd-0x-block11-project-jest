@@ -19,6 +19,9 @@ jobs:
       - name: Jest evaluator step
         id: jest
         uses: betrybe/jest-evaluator-action@v2
+        with:
+          repository-test-name: 'betrybe/sd-0x-project-jest-tests'
+          repository-test-branch: 'master'
         if: steps.wait-for-build.outputs.conclusion == 'success'
       - name: Store evaluation step
         uses: betrybe/store-evaluation-action@v1
