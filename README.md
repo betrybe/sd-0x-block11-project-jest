@@ -93,7 +93,7 @@ Lembre-se também de **não modificar** os describes dos tests na pasta `test`. 
     * Exemplo: `git checkout -b joaozinho-project-jest`
   * Agora, crie uma branch onde você vai guardar os commits do seu projeto
 
---- 
+---
 
 ## Durante o desenvolvimento
 
