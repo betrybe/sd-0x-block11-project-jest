@@ -1,19 +1,19 @@
 {
   "requirements": [
     {
-      "description": "1 - O retorno do telefonema",
+      "description": "o retorno do telefonema",
       "bonus": false
     },
     {
-      "description": "2 - Verifica o usuário",
+      "description": "verifica o usuário",
       "bonus": true
     },
     {
-      "description": "3 - Verifica as funções e os mocks",
+      "description": "verifica as funções e os mocks",
       "bonus": false
     },
     {
-      "description": "4 - Quem sobreviveu?",
+      "description": "quem sobreviveu?",
       "bonus": false
     }
   ]
