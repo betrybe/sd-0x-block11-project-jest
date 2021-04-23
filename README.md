@@ -53,7 +53,7 @@ Neste projeto, você irá implementar testes utilizando o **Jest** para verifica
 
 ## Desenvolvimento
 
-Este repositório contém a estrutura de pastas e arquivos que contém funções que deverão ser testadas por você. Após clonar o projeto e criar sua branch de trabalho, você poderá começar o desenvolvimentos dos testes.
+Este repositório contém a estrutura de pastas e arquivos que contém funções que deverão ser testadas por você. Após clonar o projeto e criar sua branch de trabalho, você poderá começar o desenvolvimento dos testes.
 
 Lembre-se de **não modificar** os arquivos da pasta `src`, o objetivo do projeto é que você trabalhe apenas com a pasta `test`. 
 
@@ -136,11 +136,11 @@ Lembre-se também de **não modificar** os describes dos tests na pasta `test`. 
 
 Para garantir a qualidade do código, vamos utilizar neste projeto o  [ESLint](https://eslint.org/). Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível e de fácil manutenção! 
 
-Este projeto já vem com as dependências relacionadas ao _linter_ configuradas no arquivos `package.json`.
+Este projeto já vem com as dependências relacionadas ao _linter_ configuradas no arquivo `package.json`.
 
 Para poder rodar o `ESLint` no projeto basta executar o comando `npm install` dentro do projeto e depois `npm run lint`. Se a análise do `ESLint` encontrar problemas no seu código, tais problemas serão mostrados no seu terminal. Se não houver problema no seu código, nada será impresso no seu terminal.
 
-Você pode ler mais sobre o `EsLint` [aqui](https://app.betrybe.com/course/real-life-engineer/eslint) e também pode instalar o plugin do `ESLint` no `VSCode`, bastar ir em extensions e baixar o [plugin `ESLint`](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
+Você pode ler mais sobre o `EsLint` e como instalá-lo [aqui](https://app.betrybe.com/course/real-life-engineer/eslint) ou também pode ir em extensions e baixar o [plugin `ESLint`](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) no `VSCode`.
 
 ⚠️ **PULL REQUESTS COM ISSUES NO ESLINT NÃO SERÃO AVALIADAS, ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠️
 
@@ -160,7 +160,7 @@ Crie mock functions no arquivo `test/mockFunctions.spec.js` para que os testes m
 
 ### 3 - Crie um Mock para o retorno da API
 
-Crie um API mock no arquivo `test/mockApi.spec.js` para que os testes do Jest utilizem retornos de API fixos e independentes de requisições.
+Crie uma API mock no arquivo `test/mockApi.spec.js` para que os testes do Jest utilizem retornos de API fixos e independentes de requisições.
 
 Exemplo de resposta da API randomuser.me:
 
