@@ -6,7 +6,6 @@
     "func-names": "off",
     "no-param-reassign": "off",
     "max-lines-per-function": "off",
-    "no-unused-vars": "warn"
   },
   "env": {
     "browser": true,
