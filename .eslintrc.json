@@ -5,7 +5,7 @@
     "prefer-arrow-callback": "off",
     "func-names": "off",
     "no-param-reassign": "off",
-    "max-lines-per-function": "off",
+    "max-lines-per-function": "off"
   },
   "env": {
     "browser": true,
