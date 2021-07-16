@@ -2,7 +2,7 @@
 
 Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
 
-# Boas vindas ao repositório do projeto de Jest Assíncrono e Mocking!
+## Boas vindas ao repositório do projeto de Jest Assíncrono e Mocking!
 
 Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
 
@@ -10,7 +10,8 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ---
 
-# Sumário
+## Sumário
+
 - [Habilidades](#habilidades)
 - [Entregáveis](#entregáveis)
   - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
@@ -21,37 +22,36 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
   - [Linter](#linter)
 - [Requisitos do projeto](#requisitos-do-projeto)
-  - [Lista de requisitos](#lista-de-requisitos)
-    - [1 - Crie testes para uma função assíncrona](#1---crie-testes-para-uma-função-assíncrona)
-    - [2 - Crie um "Mock" no arquivo test/mockFunctions.spec.js](#2---Crie-um-"Mock"-no-arquivo-test/mockFunctions.spec.js)
-    - [3 - Crie um Mock para o retorno da API](#3---Crie-um-Mock-para-o-retorno-da-API)
-    - [4 - Crie funções no arquivo test/setupTeardown.spec.js](#4---Crie-funções-no-arquivo-test/setupTeardown.spec.js)
+  - [1. Crie testes para uma função assíncrona](#1-crie-testes-para-uma-função-assíncrona)
+  - [2. Crie um mock no teste mockFunctions](#2-crie-um-mock-no-teste-mockfunctions)
+  - [3. Crie um mock para o retorno da API](#3-crie-um-mock-para-o-retorno-da-api)
+  - [4. Crie funções no teste setupTeardown](#4-crie-funções-no-teste-setupteardown)
 - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
 - [Revisando um pull request](#revisando-um-pull-request)
 - [Avisos finais](#avisos-finais)
 
 ---
 
-# Habilidades
+## Habilidades
 
 Nesse projeto, você será capaz de:
 
 - Escrever testes para funções assíncronas;
 - Aplicar os seus conhecimentos acerca de testes utilizando o Jest;
-- "Mockar" funções;
-- "Mockar" APIs;
+- Mockar funções;
+- Mockar APIs;
 
 ---
 
-# Entregáveis
+## Entregáveis
 
-## O que deverá ser desenvolvido
+### O que deverá ser desenvolvido
 
 Neste projeto, você irá implementar testes utilizando o **Jest** para verificar se uma série de funções estão funcionando corretamente. Você colocará em prática todo o conteúdo que aprendeu sobre Jest assíncrono e Mocks aplicados a testes em Javascript.
 
 ---
 
-## Desenvolvimento
+### Desenvolvimento
 
 Este repositório contém a estrutura de pastas e arquivos que contém funções que deverão ser testadas por você. Após clonar o projeto e criar sua branch de trabalho, você poderá começar o desenvolvimento dos testes.
 
@@ -63,19 +63,17 @@ Em cada `describe` existe uma função `assert.fail()` para que o avalidor teste
 
 Lembre-se também de **não modificar** os describes dos tests na pasta `test`. Alterá-los pode fazer com que o seu requisito não passe no avaliador automático.
 
-## Data de entrega
+### Data de entrega
 
-  - Projeto individual.
-
-  - Serão dois dias de projeto.
-
-  - Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
+- Projeto individual.
+- Serão dois dias de projeto.
+- Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
 
 ---
 
-# Como desenvolver
+## Como desenvolver
 
-## Antes de começar a desenvolver
+### Antes de começar a desenvolver
 
 1. Clone o repositório
   * `git clone https://github.com/tryber/sd-0x-project-jest.git`.
@@ -95,13 +93,13 @@ Lembre-se também de **não modificar** os describes dos tests na pasta `test`. 
   * Verifique que as mudanças ainda não estão no _stage_
     * Exemplo: `git status` (devem aparecer listados os novos arquivos em vermelho)
   * Adicione o novo arquivo ao _stage_ do Git
-      * Exemplo:
-        * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        * `git status` (devem aparecer listados os arquivos em verde)
+    * Exemplo:
+      * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
+      * `git status` (devem aparecer listados os arquivos em verde)
   * Faça o `commit` inicial
-      * Exemplo:
-        * `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
-        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
+    * Exemplo:
+      * `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
+      * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
 
 4. Adicione a sua branch com o novo `commit` ao repositório remoto
   * Usando: `git push -u origin joaozinho-project-jest`
@@ -117,7 +115,7 @@ Lembre-se também de **não modificar** os describes dos tests na pasta `test`. 
 
 ---
 
-## Durante o desenvolvimento
+### Durante o desenvolvimento
 
 * Faça `commits` das alterações que você fizer no código regularmente
 
@@ -132,7 +130,7 @@ Lembre-se também de **não modificar** os describes dos tests na pasta `test`. 
 
 ---
 
-## Linter
+### Linter
 
 Para garantir a qualidade do código, vamos utilizar neste projeto o  [ESLint](https://eslint.org/). Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível e de fácil manutenção! 
 
@@ -142,30 +140,27 @@ Para poder rodar o `ESLint` no projeto basta executar o comando `npm install` de
 
 Você pode ler mais sobre o `EsLint` e como instalá-lo [aqui](https://app.betrybe.com/course/real-life-engineer/eslint) ou também pode ir em extensions e baixar o [plugin `ESLint`](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) no `VSCode`.
 
-⚠️ **PULL REQUESTS COM ISSUES NO ESLINT NÃO SERÃO AVALIADAS, ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠️
+⚠️ **PULL REQUESTS COM ISSUES NO ESLINT NÃO SERÃO AVALIADAS, ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!**
 
 ---
 
-# Requisitos do projeto
+## Requisitos do projeto
 
-## Lista de requisitos
-
-### 1 - Crie testes para uma função assíncrona
+### 1. Crie testes para uma função assíncrona
 
 Complete os testes do arquivo `test/asyncJest.spec.js` para que funcionem com código assíncrono.
 
-### 2 - Crie um "Mock" no arquivo test/mockFunctions.spec.js
+### 2. Crie um `mock` no teste mockFunctions
 
-Crie mock functions no arquivo `test/mockFunctions.spec.js` para que os testes mockados 'sobrescrevam' o código definido na pasta `src`. A idéia é que as funções criadas a partir do Jest tenham prioridade na sua execução.
+Crie mock functions no arquivo `test/mockFunctions.spec.js` para que os testes mockados "sobrescrevam" o código definido na pasta `src`. A ideia é que as funções criadas a partir do Jest tenham prioridade na sua execução.
 
-### 3 - Crie um Mock para o retorno da API
+### 3. Crie um `mock` para o retorno da API
 
 Crie uma API mock no arquivo `test/mockApi.spec.js` para que os testes do Jest utilizem retornos de API fixos e independentes de requisições.
 
 Exemplo de resposta da API randomuser.me:
 
 ```js
-
 {
   gender: 'female',
   name: { title: 'Ms', first: 'Deborah', last: 'Hanson' },
@@ -203,14 +198,11 @@ Exemplo de resposta da API randomuser.me:
   },
   nat: 'IE'
 }
-
 ```
 
-### 4 - Crie funções no arquivo test/setupTeardown.spec.js
+### 4. Crie funções no teste setupTeardown
 
 Intercale funções entre os testes definidos no arquivo `test/setupTeardown.spec.js`.
-
-
 
 ---
 
@@ -233,12 +225,10 @@ Use o conteúdo sobre [Code Review](https://app.betrybe.com/course/real-life-eng
 
 ---
 
-# Avisos Finais
+## Avisos Finais
 
 Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
 
 Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://bit.ly/2OfLJPn)
 
 O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
-
----
